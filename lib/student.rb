@@ -83,7 +83,7 @@ class Student
       WHERE grade == "10"
       LIMIT ?
     SQL
-    
+
     DB[:conn].execute(sql, x)
   end
 
@@ -94,7 +94,7 @@ class Student
       WHERE grade == "10"
       LIMIT 1
     SQL
-    
+
     DB[:conn].execute(sql)
   end
 
